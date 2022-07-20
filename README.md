@@ -1,6 +1,9 @@
 # Hybrid_Battery_Escooter
-In this repository it is presented the work related to the B.sc. thesis, where an High Performance Hybrid Battery circuit was developed for an E-scooter
+In this repository it is presented the work related to the B.sc. thesis, where an High Performance Hybrid Battery circuit was developed for an E-scooter.
 
+In this project is presented a strategy aimed at the development of a DC-DC converter best suited to operate in an HESS configuration using HP and HE battery types in a Dual- cell architecture for E-scooter application.
+The core feature of the active parallel HESS configuration proposed was represented by the development and testing of a bidirectional DC-DC converter. Which needs to operate either as a boost and either as a buck converter. Through that a 3- phase BLDC was supplied with the energy stored in the UC bank during accelerations of the ES, while it recharged the UC bank during regenerative braking.
+It was first simulated the acceleration behavior of an ES. The parameters obtained from that were used for designing the DC- DC converter. According to its requirements a control algorithm was developed in Arduino. Consequently empirical tests were performed to validate the converter and the developed control algorithm.
 
 
 ## System Architecture 
